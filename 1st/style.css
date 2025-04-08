@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg 17% 70%);
+    display: flex;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    top: 5%;
+    left: 5%;
+}
+
+nav>img{
+    height: 70px;
+}
+nav h5{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "monument", sans-serif;
+    color: #fff;
+}
+
+.part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: rgba(219, 138, 106, 0.853); */
+}
+
+.part2{
+    height: 100%;
+    width: 66%;
+    /* background-color: rgba(67, 109, 199, 0.801); */
+    background-image: url("https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    position:relative;
+    z-index: 1;
+    background-color:  hsla(344, 18%, 70%, 0.141);
+}
+
+.part3{
+    height: 100%;
+    width: 8%;
+    /* background-color: rgba(129, 209, 129, 0.885); */
+}
+
+.text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 570px;
+    /* background-color: red; */
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text-div h1{
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+    line-height: 78px;
+    letter-spacing: 5px;
+    font-family: "monument", sans-serif;
+}
+.small-img{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    background-image: url("https://images.unsplash.com/photo-1529680459049-bf0340fa0755?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+  }
+  .vertical-text{
+    text-transform: uppercase;
+    position: absolute;
+    transform: rotate(90deg);
+    right: -48%;
+    transform-origin: 0% 0%;
+    
+  }
+  .vertical-text>h1{
+        font-size: 70px;
+        font-weight: 900;
+        font-family: "monument", sans-serif;
+        color: transparent;
+        
+        /* letter-spacing: 6px; */
+        -webkit-text-stroke: 2px  #fff;
+        
+  }
+
+
